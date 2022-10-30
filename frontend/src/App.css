@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  /*Image only BG fallback*/
+
+  /*background = gradient + image pattern combo*/
+  background:
+    linear-gradient(rgb(255, 254, 254), rgb(154, 236, 126));
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 100px 50px;
+  background: linear-gradient(rgb(106, 255, 88), rgb(26, 133, 44));;
+  width: 40%;
+  margin-left: 27%;
+  border-radius:15px;
+  box-shadow: 0 0 15px 1px rgba(5, 24, 5, 0.56);
+
+}
+input {
+  display: block;
+  width: 20rem;
+  height: 2rem;
+  padding: 1rem 0.5rem;
+
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  border-radius:5px;
+  border: 0px solid;
+}
+button {
+  border: none;
+  padding: 1rem;
+  width: 21.2rem;
+  font-size: 1.2em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #c2c2c2;
+}
+.message {
+  margin:20px;
+  font-size: 1.9em;
+  text-align: center;
+  color: #ffffff;
+}
